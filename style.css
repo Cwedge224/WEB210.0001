@@ -1,0 +1,78 @@
+/* color notes
+F1E0C5
+C9B79C
+71816D
+342A21
+DA667B
+--------------------------------*/
+
+/* global
+--------------------------------*/
+body {
+    color: rgb(48, 48, 48);
+background:#94adaf;
+}
+a:{
+    color:rgb(11, 45, 83)
+}
+a:link{
+color:rgb(0, 225, 255)
+}
+a:visited{
+color:purple
+}
+a:hover{
+    color:rgb(0, 179, 192);
+    text-decoration: none;
+    
+}
+
+/* profile
+--------------------------------*/
+header{
+    background-color:#3c6274
+}
+h1 {
+    color:#303030
+    padding: 10px;
+    border: 5px solid gray;
+    
+}
+h2 {
+    color:#0c1220
+}
+.hd2 {
+    color:#0c2647
+}
+}
+.hd2.hd3{
+    font-size: 50px;
+}
+
+h1, h2{
+    font-weight: 10px;
+}
+/* projects
+--------------------------------*/
+.project{
+    background: #0b222c
+}
+.project a{
+    background:seashell
+}
+/* work experience
+--------------------------------*/
+.work{
+    background-color:#f1e0c5
+}
+
+/* education
+--------------------------------*/
+.school{
+    background: #C9B79C
+}
+/* contact
+--------------------------------*/
+footer{
+    background-color:#f1e0c5
+}
