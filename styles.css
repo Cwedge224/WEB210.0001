@@ -1,0 +1,167 @@
+body, html {
+   height: 100%;
+   margin:0;
+   font-family:  "helvetica", sans-serif;
+   line-height: 180%;
+   color: #464646;
+   text-align: center;
+   background-color: rgb(31, 31, 31);
+}
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  
+}
+
+.responsive {
+  width:100%;
+  height:auto;
+}
+.nav-container {
+  width:100%;
+  background-color: var(rgb(44, 43, 43));
+}
+.nav-links {
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+}
+.nav-links:hover {
+  color: (rgb(255, 255, 255));
+transition: all 0.2 ease-out;
+}
+.nav-links-btn {
+  color: var(rgb(3, 112, 139));
+  padding: 6px 16px;
+  border-radius: 4px;
+}
+.parallax1 {
+    background: url("https://i.imgur.com/UK1S71y.png");
+    min-height: 80%;
+}
+.parallax1 {
+position: relative;
+opacity: .75;
+background-position: center;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+.heading{
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size:300%;
+    line-height: 1.0;
+    top:38%;
+    width:100%;
+    letter-spacing:5px;
+    
+
+}
+.heading-sm {
+    position: absolute;
+    color:rgb(255, 255, 255);
+    font-size:600%;
+    line-height: 1.0;
+    top:46%;
+    width:100%;
+    letter-spacing:5px;
+ 
+
+}
+.two-col{
+    float: left;
+    width: 50%;
+    padding: 0 5%;
+    text-align: left;
+
+   
+}
+
+.section {
+    overflow: auto;
+    padding: 50px 80px;
+}
+.light {
+    overflow:auto;
+    padding: 50px 80px;
+    background-color: #fff;
+    color: rgb(45, 45, 46);
+}
+.responsive {
+        max-width: 100%;
+        height: auto;
+      }
+
+}
+    
+h1 {
+    font-size: 6em;
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font: Helvetica;
+    
+}
+
+  
+  footer {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 15px 15px;
+      font-size: 1em;
+      text-decoration:none;
+      background-color: #242a41
+
+  }
+  
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+a:hover {
+  color: rgb(0, 217, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+#wrapper {
+  position: relative;
+  width: 100%;
+  padding: 40px;
+}
+.image {
+  position: relative;
+  overflow: hidden;
+
+}
+
+.content p {
+font-size: 14px;
+margin-top: 10px;
+line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 250%;
+  }
+  .heading-sm {
+    font-size: 180%;
+  }
+  .two-col {
+    font-size: 100%;
+    padding: 0;
+    text-align: center;
+  }
+}
